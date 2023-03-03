@@ -1,0 +1,17 @@
+changelog:
+  categories:
+    - title: 새로운 기능
+      labels:
+        - feature
+    - title: 버그 수정 & 개선
+      labels:
+        - bugFix
+    - title: 문서
+      labels:
+        - document
+    - title: 테스트
+      labels:
+        - test
+    - title: 기타
+      labels:
+        - etc
