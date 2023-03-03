@@ -1,14 +1,24 @@
-# GitHub Release 관리
+# GitHub 관리
+
+## 1. PR 관리
+
+### PR 템플릿
+
+- 참고
+  - [Github Docs: Creating a pull request template for your repository](https://docs.github.com/en/enterprise-server@3.7/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
+  - [StackOverFlow: 다중 PR 템플릿 선택하기](https://stackoverflow.com/questions/73771068/multiple-templates-for-pull-requests-on-github)
+
+## 2. 릴리즈 노트 관리
 
 - 참고
   - [카카오 엔터프라이즈: Release Note 톺아보기](https://tech.kakaoenterprise.com/113)
 
-## 릴리즈 노트란?
+### 릴리즈 노트란?
 
 - 서비스 출시 또는 업데이트 마다 이전과 다른 변경 사항을 체계적으로 정리하여 정보를 제공하는 문서
   - 기능 추가, 삭제, 버그 개선 등...
 
-## 릴리즈 노트의 구성요소
+### 릴리즈 노트의 구성요소
 
 1. 버전
 
