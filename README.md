@@ -5,10 +5,21 @@
 ### PR 템플릿
 
 - 참고
+
   - [Github Docs: Creating a pull request template for your repository](https://docs.github.com/en/enterprise-server@3.7/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
   - [StackOverFlow: 다중 PR 템플릿 선택하기](https://stackoverflow.com/questions/73771068/multiple-templates-for-pull-requests-on-github)
 
-다중 PR인 경우 Template을 쉽게 설정하는 방법을 테스트 중
+- 처음 PR을 만드는 경우 보여지는 화면
+  ![image](https://user-images.githubusercontent.com/76491635/222778736-c7ef38ee-d4f8-443a-b8b3-6df3a4a478c8.png)
+
+- preview를 눌러서 해당하는 Template 선택
+  ![image](https://user-images.githubusercontent.com/76491635/222778750-f6bd4393-87c5-4304-bc69-7b0a168e61b6.png)
+
+- 해당하는 Template에 맞는 내용이 들어감
+  ![image](https://user-images.githubusercontent.com/76491635/222778764-f2ed6bfc-8ff6-432b-a601-29ce1e0f609a.png)
+
+- 잘못 선택한 경우 아래와 같이 expand=1 까지 남기면 다시 선택 화면으로 돌아감
+  ![image](https://user-images.githubusercontent.com/76491635/222779062-800aa8d7-4daf-4cdc-b55c-a20e0ff00f7a.png)
 
 ## 2. 릴리즈 노트 관리
 
