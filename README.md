@@ -69,3 +69,14 @@
 - [vscode](https://github.com/microsoft/vscode/releases)
 - [slack](https://slack.com/intl/ko-kr/release-notes/windows)
 - [Dooray](https://helpdesk.dooray.com/share/pages/9wWo-xwiR66BO5LGshgVTg/3179083034117533402)
+
+## 릴리즈 형식 생성하기
+
+- release.yml을 작성하여 PR label을 통해서 분류할 수 있음
+
+## 릴리즈 자동 생성을 트리거 하는 Action
+
+- 참고
+  - [jstime: release.yml](https://github.com/jstime/jstime/blob/main/.github/workflows/release.yml)
+  - [github cli : gh release create](https://cli.github.com/manual/gh_release_create)
+  - [github REST API : Generate release notes content for a release](https://docs.github.com/en/rest/releases/releases?apiVersion=2022-11-28#generate-release-notes-content-for-a-release)
