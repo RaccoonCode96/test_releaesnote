@@ -8,6 +8,8 @@
   - [Github Docs: Creating a pull request template for your repository](https://docs.github.com/en/enterprise-server@3.7/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
   - [StackOverFlow: 다중 PR 템플릿 선택하기](https://stackoverflow.com/questions/73771068/multiple-templates-for-pull-requests-on-github)
 
+다중 PR인 경우 Template을 쉽게 설정하는 방법을 테스트 중
+
 ## 2. 릴리즈 노트 관리
 
 - 참고
