@@ -1,0 +1,24 @@
+name: Labeled_PR_EVENT
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - labeled
+jobs:
+  mainJob:
+    if: github.event_name == 'pull_request' && github.event.label.name == "test"
+    name: mainJob
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        id: git_checkout
+        uses: actions/checkout@v3
+
+      - name: events
+        id: events
+        env:
+          github_event: '${{ github.event }}'
+        run: echo "action:${env.github_event.action}, label:${env.github_event.label}"
