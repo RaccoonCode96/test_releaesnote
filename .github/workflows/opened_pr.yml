@@ -20,5 +20,5 @@ jobs:
       - name: events
         id: events
         env:
-          pull_request_object: '${{ github.event.pull_request }}'
+          pull_request_object: '${{ toJSON(github.event.pull_request) }}'
         run: echo "labels:${env.pull_request_object}"
