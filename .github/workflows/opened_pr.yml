@@ -1,0 +1,22 @@
+name: Opened_PR_EVENT
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - synchronize
+jobs:
+  mainJob:
+    name: mainJob
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        id: git_checkout
+        uses: actions/checkout@v3
+
+      - name: events
+        id: events
+        run: echo opened and sync
