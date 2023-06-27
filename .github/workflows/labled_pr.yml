@@ -19,4 +19,6 @@ jobs:
 
       - name: events
         id: events
-        run: echo "labels:${github.event.pull_request.labels.*.name}"
+        env:
+          pull_request_object: '${{ github.event.pull_request }}'
+        run: echo "labels:${env.pull_request_object}"
