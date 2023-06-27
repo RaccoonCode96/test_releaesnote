@@ -12,7 +12,7 @@ jobs:
     name: mainJob
     runs-on: ubuntu-latest
 
-    step:
+    steps:
       - name: checkout
       id: git_checkout
       uses: actions/checkout@v3
