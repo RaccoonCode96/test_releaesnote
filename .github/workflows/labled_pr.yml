@@ -8,7 +8,7 @@ on:
       - labeled
 jobs:
   mainJob:
-    if: github.event_name == 'pull_request' && contains(github.event.pull_request.labels.*.name, 'test')
+    if: github.event_name == 'pull_request' && github.event.label.name == "test"
     name: mainJob
     runs-on: ubuntu-latest
 
@@ -20,5 +20,5 @@ jobs:
       - name: events
         id: events
         env:
-          pull_request_object: '${{ toJSON(github.event) }}'
-        run: echo "labels:${env.pull_request_object}"
+          github_event: '${{ github.event }}'
+        run: echo "action:${env.github_event.action}, label:${env.github_event.label}"
