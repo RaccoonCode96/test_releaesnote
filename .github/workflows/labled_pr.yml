@@ -8,7 +8,7 @@ on:
       - labeled
 jobs:
   mainJob:
-    if: github.event_name == 'pull_request' && github.event.label.name == "test"
+    if: github.event_name == 'pull_request' && github.event.label.name == 'test'
     name: mainJob
     runs-on: ubuntu-latest
 
